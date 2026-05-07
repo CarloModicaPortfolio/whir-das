@@ -1,0 +1,20 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/whir-cc",
+    "crates/whir-das",
+]
+
+[workspace.package]
+version = "0.0.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/CarloModicaPortfolio/whir-das"
+authors = ["Carlo Modica <carlo.modica@protonmail.com>"]
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+
+[workspace.lints.clippy]
+all = { level = "warn", priority = -1 }
+pedantic = { level = "warn", priority = -1 }

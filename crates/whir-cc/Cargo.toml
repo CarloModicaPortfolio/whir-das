@@ -1,0 +1,15 @@
+[package]
+name = "whir-cc"
+description = "Erasure-code commitment scheme built from the WHIR IOPP-of-proximity"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+
+[dev-dependencies]

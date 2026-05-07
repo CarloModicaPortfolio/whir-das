@@ -1,0 +1,16 @@
+[package]
+name = "whir-das"
+description = "Data Availability Sampling scheme on top of whir-cc"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+whir-cc = { path = "../whir-cc" }
+
+[dev-dependencies]
